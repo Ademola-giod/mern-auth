@@ -4,8 +4,8 @@ import userModel from '../model/userModel.js'
 import {EMAIL_VERIFY_TEMPLATE, PASSWORD_RESET_TEMPLATE} from "../config/emailTemplates.js"
 
 import transporter from '../config/nodemailer.js';
-import { replace } from 'react-router-dom';
-import { Verified } from 'lucide-react';
+// import { replace } from 'react-router-dom';
+// import { Verified } from 'lucide-react';
 
 
 export const register = async (req, res) => {

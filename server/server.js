@@ -16,10 +16,10 @@ console.log("🔍 MONGODB_URI:", process.env.MONGODB_URI);
 // connect mongoDB
 connectDB()
 
-// 
+// cors
 const allowedOrigins = [
     'http://localhost:5173',
-    'https://mern-authentication-jet.vercel.app'
+    'https://mern-auth-backend-xi.vercel.app'
 ]
 
 

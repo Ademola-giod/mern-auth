@@ -34,9 +34,9 @@ app.use('/api/auth', authRouter);
 app.use('/api/user', userRouter)
 // endpoint for user router,
 
-// if (process.env.NODE_ENV !=='Production'){
-// app.listen(port, () => console.log(`server started on PORT:${port}`));
-// }
+if (process.env.NODE_ENV !=='Production'){
+app.listen(port, () => console.log(`server started on PORT:${port}`));
+}
 
 // Export for Vercel serverless function
 
